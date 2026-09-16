@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educação Digital - 1º Ano</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1717a8, #00a8ff);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+        }
+
+        nav {
+            background-color: #111;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00c8ff;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        section h2 {
+            color: #1717a8;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 30px;
+        }
+
+        .inicio {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .inicio img {
+            width: 45%;
+            border-radius: 15px;
+        }
+
+        .inicio-texto {
+            width: 55%;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #1717a8;
+            margin-bottom: 10px;
+        }
+
+        .atividade {
+            background: #e8f4ff;
+            border-left: 6px solid #008cff;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .atividade h3 {
+            color: #0056a6;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 700px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            .inicio {
+                flex-direction: column;
+            }
+
+            .inicio img,
+            .inicio-texto {
+                width: 100%;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Formula 1</h1>
+    <p>1º Ano do Ensino Médio</p>
+    <p>onde a milissegunda separa a glória eterna do invisível.</p>
+</header>
+
+<nav>
+    <a href="#inicio">Início</a>
+    <a href="#conteudos">Conteúdos</a>
+    <a href="#seguranca">Segurança</a>
+    <a href="#atividades">Atividades</a>
+</nav>
+
+<section id="inicio">
+
+    <div class="inicio">
+
+        <img src="f1-car-evolucao.avif"
+             alt="Estudantes utilizando computadores">
+
+        <div class="inicio-texto">
+            <h2>🌐 Bem-vindos!</h2>
+
+            <p>
+                Na Fórmula 1, o tempo não se mede em segundos, mas no fio de navalha entre o triunfo e o desastre.
+            
+            </p>
+
+            <br>
+
+            <p>
+                A Fórmula 1 é um balé mecânico a 300 km/h, onde a precisão da engenharia e a audácia humana se fundem na busca implacável pela fração de segundo que separa a glória do esquecimento.
+            </p>
+
+            <br>
+
+            <p>
+        
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="conteudos">
+
+    <h2>o que vamos falar sobre</h2>
+
+    <div class="cards">
+
+        <div class="O rugido da engenharia">
+            <img src=""
+                 alt="">
+            <h3></h3>
+            <p>
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="SI202511080387-Aangepast-scaled.jpg"
+                 alt="Programação">
+            <h3>o que é formula 1</h3>
+            <p>
+                A Fórmula 1 é uma das principais categorias do automobilismo mundial. Nela, pilotos e equipes competem em corridas realizadas em diferentes países.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="p202511041651194423f.webp"
+                 alt="Internet">
+            <h3>tecnologia e velocidade</h3>
+            <p>
+                Os carros de Fórmula 1 são extremamente rápidos e tecnológicos. As equipes trabalham constantemente para melhorar o desempenho, a aerodinâmica e a segurança dos veículos.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="GP-de-Sao-Paulo.webp"
+                 alt="Segurança digital">
+            <h3>estratégia nas corridas</h3>
+            <p>
+                Além da velocidade, a Fórmula 1 envolve muita estratégia. Escolhas como o momento das paradas nos boxes, os pneus e as condições da pista podem influenciar bastante o resultado de uma corrida.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="seguranca">
+
+    <h2>curiosidades</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>corros muito rápidos</h3>
+            <p>
+                Os carros de Fórmula 1 podem ultrapassar 300 km/h em algumas pistas. Eles são projetados para serem rápidos e terem muita aerodinâmica.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>troca de peneus</h3>
+            <p>
+                Durante uma corrida, os pilotos podem precisar trocar os pneus. A parada nos boxes é muito rápida e pode durar apenas alguns segundos.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>corridas pelo mundo</h3>
+            <p>
+                A Fórmula 1 realiza corridas em vários países. Cada pista possui características diferentes, tornando as disputas mais desafiadoras.
+
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>trabalho em equipe</h3>
+            <p>
+                Uma equipe de Fórmula 1 conta com muitos profissionais, como engenheiros e mecânicos. Todos trabalham juntos para melhorar o desempenho do carro.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="atividades">
+
+    <h2>adrenalina na pista</h2>
+
+    <div class="atividade">
+        <h3>1-velocidade</h3>
+        <p>
+            Na Fórmula 1, os pilotos enfrentam velocidades muito altas, tornando cada volta cheia de emoção e adrenalina.
+        </p>
+    </div>
+
+    <div class="atividade">
+        <h3>2-curvas desafiadoras</h3>
+        <p>
+            As curvas exigem muita habilidade e concentração. Um pequeno erro pode fazer uma grande diferença na corrida.
+        </p>
+    </div>
+
+    <div class="atividade">
+        <h3>3-disputas emocionantes</h3>
+        <p>
+            As ultrapassagens deixam as corridas ainda mais emocionantes. Os pilotos precisam ser rápidos e precisos para ganhar posições.
+        </p>
+    </div>
+
+    <div class="atividade">
+        <h3>4-emoção na largada</h3>
+        <p>
+            A largada é um dos momentos mais aguardados. Em poucos segundos, os carros aceleram e disputam as primeiras posições.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    <p>💻 Educação Digital – 1º Ano do Ensino Médio</p>
+    <p>Aprender tecnologia é também aprender a utilizá-la com responsabilidade.</p>
+</footer>
+
+</body>
+</html>
